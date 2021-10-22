@@ -1,0 +1,16 @@
+package java1018;
+
+public class TraineeMain {
+
+	public static void main(String[] args) {
+		Trainee student = new Trainee("Çı¸°", 27,"010","¹«");
+		
+		student.afterSignup("¹ÎÁ¤", "À¯");
+		
+		student.phoneNumberUpdate("032");
+		
+		Trainee student2 = new Trainee("°¨ÀÚ",30,"090","À¯");
+		
+	}
+
+}

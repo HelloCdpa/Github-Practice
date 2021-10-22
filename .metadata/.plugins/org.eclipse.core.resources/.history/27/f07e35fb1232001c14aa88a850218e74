@@ -1,0 +1,22 @@
+package java1018;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//상세 기능처리
+
+public class TraineeService {
+	//traineeList를 TraineeService 클래스로 넘겨서 출력
+	
+	void ListView (List<TraineeDTO> traineeList) {
+		System.out.println("listView 호출됨");
+		for(int i=0; i<traineeList.size();i++) {
+			System.out.println(traineeList.get(i));
+		}
+		System.out.println("listView 호출끝");
+	}
+	
+	
+	
+	
+}

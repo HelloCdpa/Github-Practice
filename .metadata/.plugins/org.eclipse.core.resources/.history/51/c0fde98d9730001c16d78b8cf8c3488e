@@ -1,0 +1,50 @@
+package java1019;
+
+public class Board {
+	
+	int count;
+	String title,writer,content;
+	
+
+	Board(){
+		
+	}
+	
+	void boardWrite(String title,String writer,String content) {
+		System.out.print("제목을 입력하세요 : " );
+		this.title = title;
+		System.out.print("작성자를 입력하세요 : " );
+		this.writer = writer;
+		System.out.print("내용을 입력하세요 : " );
+		this.content = content;
+	}
+	
+	int boardView () {
+		count +=1;
+		
+		System.out.println("제목 : " + title);
+		System.out.println("작성자 : " + writer);
+		System.out.println("글 내용 : " + content);
+		
+		System.out.print("조회수 : ");
+		return count;
+	}
+	
+	void boardUpdate (String Uptitle, String Upcontent) {
+		System.out.print("제목을 입력하세요 : " );
+		this.title = Uptitle;
+		System.out.print("내용을 입력하세요 : " );
+		this.content = Upcontent;
+		
+		System.out.println("수정 완료");
+
+		System.out.println("제목 : " + title);
+		System.out.println("작성자 : " + writer);
+		System.out.println("글 내용 : " + content);
+		
+	}
+	
+	
+	
+	
+}

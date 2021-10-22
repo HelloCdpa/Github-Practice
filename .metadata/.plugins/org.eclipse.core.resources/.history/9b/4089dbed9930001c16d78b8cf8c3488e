@@ -1,0 +1,39 @@
+package java1019;
+
+import java.util.Scanner;
+
+public class BoardMain {
+
+	public static void main(String[] args) {
+		
+		String title= null, writer= null, content = null;
+		String uptitle= null, upcontent = null;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		Board c1 = new Board();
+		
+		c1.boardWrite(title, writer, content);
+		System.out.print("제목을 입력하세요 : " );
+		title = scan.next();
+		System.out.print("작성자를 입력하세요 : " );
+		writer = scan.next();
+		System.out.print("내용을 입력하세요 : " );
+		content = scan.next();
+		
+		
+		c1.boardView();
+		
+		c1.boardUpdate(uptitle, upcontent);
+		System.out.print("제목을 입력하세요 : " );
+		uptitle = scan.next();
+		System.out.print("내용을 입력하세요 : " );
+		upcontent = scan.next();
+		
+		
+		
+		
+	}
+
+}

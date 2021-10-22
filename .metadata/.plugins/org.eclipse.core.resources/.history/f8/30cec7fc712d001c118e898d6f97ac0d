@@ -1,0 +1,20 @@
+package Java1015;
+
+public class Ob {
+	
+	String name, hobby;
+	int money, time;
+	
+	
+	
+//	Ob (String hobby, int time) {
+//		this.hobby = hobby;
+//		this.time = time;
+//	}
+	
+	
+	
+	
+	
+	
+}

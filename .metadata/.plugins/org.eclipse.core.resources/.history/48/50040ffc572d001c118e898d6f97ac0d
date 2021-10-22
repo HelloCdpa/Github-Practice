@@ -1,0 +1,28 @@
+package Java1015;
+
+public class People {
+	//필드 선언
+	String name;
+	int age;
+	//"미국"이라는 초기값을 선언
+	String nation ="미국";
+	
+	//기본 생성자 선언
+	People(){
+		System.out.println("기본 생성자 호출됨");
+	}
+	//매개 변수가 있는 생성자 선언
+	People(String name, int age, String nation){
+		this.name = name;
+		this.name = age;
+		this.name = nation;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

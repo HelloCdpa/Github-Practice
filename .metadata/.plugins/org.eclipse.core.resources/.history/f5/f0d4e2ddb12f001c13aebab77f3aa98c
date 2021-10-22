@@ -1,0 +1,19 @@
+package java1018;
+
+public class TraineeMain {
+
+	public static void main(String[] args) {
+		Trainee student = new Trainee("Çı¸°", 27,"010",0);
+		System.out.println(student.name+ " " +student.age + " "+ student.phonenum + " " + student.Major);
+		
+		student.afterSignup("¹ÎÁ¤", 1);
+		System.out.println(student.name+ " " +student.age + " "+ student.phonenum + " " + student.Major);
+		
+		student.phoneNumberUpdate("032");
+		System.out.println(student.name+ " " +student.age + " "+ student.phonenum + " " + student.Major);
+		
+		
+		
+	}
+
+}

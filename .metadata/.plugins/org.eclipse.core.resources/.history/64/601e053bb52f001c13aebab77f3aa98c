@@ -1,0 +1,42 @@
+package java1018;
+
+public class Trainee {
+	
+	String name,  phonenum;
+	String Major = "등록 안함";
+	int age = 0;
+	
+	Trainee (String name, String phonenum) {
+		this.name = name;
+		this.phonenum = phonenum;
+		System.out.println("이름 : "+name+ " 나이: " +age + " 번호 : "+ phonenum + " 전공 유무 :" + Major);
+
+	}
+	
+	void afterSignup (int age, String Major){
+		this.age = age;
+		this.Major = Major;
+		
+		System.out.println("등록 완료");
+		System.out.println("이름 : "+name+ " 나이: " +age + " 번호 : "+ phonenum + " 전공 유무 :" + Major);
+		
+	}
+	void phoneNumberUpdate (String phonenum) {
+		this.phonenum = phonenum;
+		System.out.println("변경 완료");
+		System.out.println("이름 : "+name+ " 나이: " +age + " 번호 : "+ phonenum + " 전공 유무 :" + Major);
+		
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+}

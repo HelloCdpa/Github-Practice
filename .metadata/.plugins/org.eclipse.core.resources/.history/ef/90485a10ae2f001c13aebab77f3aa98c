@@ -1,0 +1,21 @@
+package java1018;
+
+public class Ex01 {
+	
+	int num = 20, num2 = 10;
+	
+	int Ex01 (int num, int num2) {
+		int sum = num+num2;
+		return sum;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+}

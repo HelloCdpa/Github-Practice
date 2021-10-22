@@ -1,0 +1,11 @@
+package java1014;
+
+public class StrinfTokenizer {
+
+	public StrinfTokenizer(String readLine) {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

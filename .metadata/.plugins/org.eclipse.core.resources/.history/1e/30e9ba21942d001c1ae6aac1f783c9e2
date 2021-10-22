@@ -1,0 +1,14 @@
+package Java1015;
+
+public class IfmoonMain {
+
+	public static void main(String[] args) {
+		ifmoon apple= new ifmoon();
+		apple.ifmoon2("¹è");
+		apple.ifmoon2("»ç°ú");
+		
+		
+		
+	}
+
+}

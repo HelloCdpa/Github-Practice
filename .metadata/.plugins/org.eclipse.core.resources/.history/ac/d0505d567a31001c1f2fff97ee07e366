@@ -1,0 +1,23 @@
+package javaDay12_01;
+import java.util.*;
+public class LoginMain {
+
+	public static void main(String[] args) {
+
+		Login login = new Login("phl1021","Çý¸°",1234);
+		Login login2 = new Login();
+		
+		List<Login> loginList = new ArrayList<>();
+		
+		login.setId("eowjs269");
+		
+		System.out.println(loginList.get(0));
+		System.out.println(loginList.get(0).getPassword());
+		
+		
+		
+		
+		
+	}
+
+}

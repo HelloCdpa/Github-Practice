@@ -1,0 +1,16 @@
+package Java1015;
+
+public class ifmoon {
+
+	int ifmoon2 (String str) {
+		
+		if (str.equals("»ç°ú")) {
+			System.out.println(3);
+			return 4;
+		} else {
+			System.out.println(6);
+			return 5;
+		}
+		
+	}
+}

@@ -1,0 +1,21 @@
+package javaDay12_01;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		Student stu1 = new Student();
+		
+		//stu1 객체의 name 필드값 저장
+		//stu1.name = "학생1"; (x) 
+		stu1.setName("학생");
+		
+		//stu1 객체의 name 필드값 출력
+		//System.out.println(stu1.name);(x)
+		System.out.println(stu1.getName()); 
+		
+		
+		
+		
+	}
+
+}

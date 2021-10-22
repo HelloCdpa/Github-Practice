@@ -1,0 +1,19 @@
+package java1018;
+
+public class TraineeMain {
+
+	public static void main(String[] args) {
+		Trainee student = new Trainee("혜린", 27,"010","무");
+		System.out.println("이름 : "+student.name+ " 나이: " +student.age + " 번호 : "+ student.phonenum + " 전공 유무 :" + student.Major);
+		
+		student.afterSignup("민정", "유");
+		System.out.println("이름 : "+student.name+ " 나이: " +student.age + " 번호 : "+ student.phonenum + " 전공 유무 :" + student.Major);
+		
+		student.phoneNumberUpdate("032");
+		System.out.println("이름 : "+student.name+ " 나이: " +student.age + " 번호 : "+ student.phonenum + " 전공 유무 :" + student.Major);
+		
+		
+		
+	}
+
+}

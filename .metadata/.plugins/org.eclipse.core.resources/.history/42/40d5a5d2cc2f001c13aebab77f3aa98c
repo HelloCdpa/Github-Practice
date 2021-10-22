@@ -1,0 +1,29 @@
+package java1018;
+
+public class MemberMain {
+
+	public static void main(String[] args) {
+		Member member = new Member("phl1021","혜린","phl1021@naver.com",1234);
+		
+		Member member2 = new Member();
+		member2.memberJoin("zxc123","민정","min1021@naver.com",1357);
+		
+		boolean result = member.memberLogin("phl1021", 1234);
+		
+		if (result) {
+			System.out.println("로그인 성공");
+		}else {
+			System.out.println("로그인 실패");
+		}
+		
+		member2.myInfo();
+		
+		member2.memberUpdate("nana123@naver.com");
+		
+		
+		
+		
+		
+	}
+
+}

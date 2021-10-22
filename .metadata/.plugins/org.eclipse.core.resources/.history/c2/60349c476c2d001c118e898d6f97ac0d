@@ -1,0 +1,14 @@
+package Java1015;
+
+public class Ob {
+	
+	String name;
+	int money;
+	
+	
+	
+	
+	
+	
+	
+}

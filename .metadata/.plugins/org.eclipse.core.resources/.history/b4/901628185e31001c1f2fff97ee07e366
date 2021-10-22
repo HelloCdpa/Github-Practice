@@ -1,0 +1,39 @@
+package java1020;
+
+import java.util.*;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		
+		//Student 객체를 담을 수 있는 ArrayList
+		List<Student> studentList = new ArrayList<>();
+		
+		//Student 객체 선언
+		Student stu1 = new Student();
+		stu1.name = "학생1";
+		stu1.age = 12;
+		stu1.studentNumber = "20140804";
+		
+		Student stu2 = new Student("헤린",12,"1040203");
+		
+		//Student 객체를 list에 저장
+		studentList.add(stu1);
+		studentList.add(stu2);
+		
+		//Student 객체가 가지고 있는 필드값 출력
+		System.out.println(studentList.get(0).name);
+		System.out.println(studentList.get(1).name);
+		
+		//stu1 이 가지고 있는 (0번인덱스)view메서드 호출
+		studentList.get(0).view();
+		
+		//리턴이 있는 지 없는 지 구분해서 쓰기
+		System.out.println(studentList.get(1).toString());
+		
+		
+		
+		
+	}
+
+}

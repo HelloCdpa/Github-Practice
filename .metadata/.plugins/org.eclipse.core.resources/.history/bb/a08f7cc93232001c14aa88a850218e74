@@ -1,0 +1,76 @@
+package java1021;
+import java.util.*;
+public class MemberMain {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		boolean run = true;
+		int check;
+		List<MemberDTO> memberList = new ArrayList<>();
+		MemberService m = new MemberService();
+		
+		
+		//회원가입, 회원조회, 로그인, 회원정보 변경을 위한 메서드 있음. 
+		
+		while(run) {
+			System.out.println("1.회원가입 2.회원조회 3.로그인 4.회원정보 변경 5.종료");
+			check = scan.nextInt();
+			
+			switch (check) {
+			
+			case 1 :
+				m.memberJoin(memberList);
+				break;
+				
+			case 2 :
+				m.memberListView();
+				break;
+			case 3 :
+				
+				break;
+			case 4 :
+				
+				break;
+			case 5 : 
+				run = false;
+				break;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package a_pkg;
+
+import b_pkg.B1;
+
+//소속 : a_pkg
+//접근제한자 : public
+//서로 다른 패키지에 소속 : import를 해준다
+public class A1 {
+	
+	B1 b1 = new B1();
+
+}

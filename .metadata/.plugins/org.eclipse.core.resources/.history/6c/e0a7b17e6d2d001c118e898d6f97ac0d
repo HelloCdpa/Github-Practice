@@ -1,0 +1,21 @@
+package Java1015;
+
+public class Ex_Ob {
+
+	public static void main(String[] args) {
+
+		Ob client = new Ob();
+		client.name = "Çı¸°";
+		client.money = 500;
+		System.out.println(client.money); 
+		client = new Ob("°ÔÀÓ", 4);
+		System.out.println(client);
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package Java1015;
+
+public class People {
+	//필드 선언
+	String name;
+	int age;
+	String nation ="미국";
+	
+	//기본 생성자 선언
+	People(){
+		System.out.println("기본 생성자 호출됨");
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+package java1015;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		Student stu1 = new Student();
+		stu1.age = 24;
+		Student stu2 = new Student("이름1","학번1","학과1",1);
+		Student stu3 = new Student("이름2","학번2");
+		Student stu4 = new Student("학번3","학과3",10);
+		System.out.println(stu1.age);
+		System.out.println(stu2.name);
+		System.out.println(stu3.grade);
+		System.out.println(stu4.major);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

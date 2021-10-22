@@ -1,0 +1,16 @@
+package java1018;
+
+public class Ex01Main {
+
+	public static void main(String[] args) {
+		
+		Ex01 sum = new Ex01();
+		sum.Ex01(10, 20);
+		
+		
+		
+		
+		
+	}
+
+}

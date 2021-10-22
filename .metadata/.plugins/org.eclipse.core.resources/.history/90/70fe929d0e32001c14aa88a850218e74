@@ -1,0 +1,70 @@
+package java1018;
+
+import java.util.*;
+
+public class TraineeMain {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		List<Trainee> traineeList = new ArrayList<>();
+		
+		//매개변수 있는 생성자
+		Trainee student = new Trainee("혜린","010",true,28);
+		
+		//기본생성자
+		Trainee student2 = new Trainee();
+		
+		student2.setName("민정");
+		student2.setAge(27);
+		student2.setPhonenum("01099999999");
+		student2.setMajor(true);
+		
+		//리스트에 담기
+		traineeList.add(student);
+		traineeList.add(student2);
+		
+		//기본 생성자로 객체 하나 더 스캐너로 값 입력받아 저장하기
+		Trainee student3 = new Trainee();
+		System.out.print("이름 : ");
+		String name = scan.next();
+		System.out.print("나이 : ");
+		int age = scan.nextInt();
+		System.out.print("휴대폰 번호 : ");
+		String phonenum = scan.next();
+		System.out.print("전공유무 : ");
+		boolean major = scan.nextBoolean();
+				
+		
+		student3.setName(name);
+		student3.setAge(age);
+		student3.setPhonenum(phonenum);
+		student3.setMajor(major);
+		
+		traineeList.add(student3);
+		
+		//for 
+		
+		for (int i=0; i<traineeList.size(); i++ ) {
+			System.out.println(traineeList.get(i));
+		}
+		
+		
+		
+		
+		//foreach
+		for(Trainee t : traineeList) {
+			System.out.println(t.toString());
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

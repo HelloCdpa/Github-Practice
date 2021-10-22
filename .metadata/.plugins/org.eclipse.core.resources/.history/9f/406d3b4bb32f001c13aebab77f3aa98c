@@ -1,0 +1,39 @@
+package java1018;
+
+public class Trainee {
+	
+	String name,  phonenum, Major;
+	int age;
+	
+	Trainee (String name, int age, String phonenum, String Major) {
+		this.name = name;
+		this.age = age;
+		this.Major = Major;
+		this.phonenum = phonenum;
+	}
+	
+	void afterSignup (String name, String Major){
+		this.name = name;
+		this.Major = Major;
+		
+		System.out.println("등록 완료");
+		
+	}
+	void phoneNumberUpdate (String phonenum) {
+		this.phonenum = phonenum;
+		System.out.println("변경 완료");
+		
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+}

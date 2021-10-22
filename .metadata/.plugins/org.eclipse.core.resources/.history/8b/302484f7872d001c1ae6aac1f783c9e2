@@ -1,0 +1,19 @@
+package Java1015;
+
+public class Caculator {
+
+	/*
+	 * 리턴이 있는 메서드
+	 * 
+	 * 리턴타입 : int 메서드 이름 : add 매개변수 없음
+	 */
+
+	int add1() {
+		int num1 = 10;
+		int num2 = 20;
+		int sum = 0;
+		sum = num1 + num2;
+		return sum;
+	}
+
+}
